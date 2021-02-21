@@ -1,0 +1,57 @@
+!! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+
+Dart Code extension: 3.5.1
+Flutter extension: 3.5.1 (not activated)
+VS Code: 1.39.2
+Platform: win
+Workspace type: Flutter
+Multi-root?: false
+Dart SDK:
+    Loc: C:\src\flutter\bin\cache\dart-sdk
+    Ver: 2.5.0-edge.1ef83b86ae637ffe7359173804cbc6d3fa25e6db
+Flutter SDK:
+    Loc: C:\src\flutter
+    Ver: 1.9.1+hotfix.5
+HTTP_PROXY: undefined
+NO_PROXY: undefined
+
+Thu Oct 31 2019 [20:24:27 GMT+0530 (India Standard Time)] Log file started
+[8:24:27 PM] [FlutterDaemon] [Info] Spawning C:\src\flutter\bin\flutter.bat with args ["daemon"]
+[8:24:27 PM] [FlutterDaemon] [Info] ..  in C:\src\flutter
+[8:24:27 PM] [FlutterDaemon] [Info]     PID: 10996
+[8:24:27 PM] [FlutterDaemon] [Info] ==> [{"id":"1","method":"emulator.getEmulators"}]
+[8:25:20 PM] [FlutterDaemon] [Info] <== Starting device daemon...
+[8:25:20 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.5.3","pid":12992}}]
+[8:25:20 PM] [FlutterDaemon] [Info] ==> [{"id":"2","method":"device.enable"}]
+[8:25:26 PM] [FlutterDaemon] [Info] <== [{"id":"1","result":[{"id":"Pixel_3_XL_API_27","name":"Pixel_3_XL_API_27","category":"mobile","platformType":"android"}]}]
+[8:25:26 PM] [FlutterDaemon] [Info] <== [{"id":"2"}]
+[9:33:54 PM] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\vpn_app"}}]
+[9:33:54 PM] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["ios","android"]}}]
+[9:33:54 PM] [FlutterDaemon] [Info] ==> [{"id":"4","method":"emulator.getEmulators"}]
+[9:33:54 PM] [FlutterDaemon] [Info] <== [{"id":"4","result":[{"id":"Pixel_3_XL_API_27","name":"Pixel_3_XL_API_27","category":"mobile","platformType":"android"}]}]
+[9:33:55 PM] [FlutterDaemon] [Info] ==> [{"id":"5","method":"emulator.launch","params":{"emulatorId":"Pixel_3_XL_API_27"}}]
+[9:33:58 PM] [FlutterDaemon] [Info] <== [{"id":"5"}]
+[9:34:58 PM] [General] [Warn] Unable to launch due to no active device
+[9:35:10 PM] [FlutterDaemon] [Info] ==> [{"id":"6","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\vpn_app"}}]
+[9:35:10 PM] [FlutterDaemon] [Info] <== [{"id":"6","result":{"platforms":["ios","android"]}}]
+[9:35:10 PM] [FlutterDaemon] [Info] ==> [{"id":"7","method":"emulator.getEmulators"}]
+[9:35:11 PM] [FlutterDaemon] [Info] <== [{"id":"7","result":[{"id":"Pixel_3_XL_API_27","name":"Pixel_3_XL_API_27","category":"mobile","platformType":"android"}]}]
+[9:35:12 PM] [FlutterDaemon] [Info] ==> [{"id":"8","method":"emulator.launch","params":{"emulatorId":"Pixel_3_XL_API_27"}}]
+[9:35:12 PM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"Android SDK built for x86","platform":"android-x86","emulator":true,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":"Pixel_3_XL_API_27"}}]
+[9:35:12 PM] [FlutterDaemon] [Info] ==> [{"id":"9","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\vpn_app"}}]
+[9:35:12 PM] [FlutterDaemon] [Info] <== [{"id":"9","result":{"platforms":["ios","android"]}}]
+[9:35:15 PM] [FlutterDaemon] [Info] <== [{"id":"8"}]
+[9:35:17 PM] [General] [Warn] Did not find session a0d0fef7-06e4-4a96-9006-3829d68ccbd1 to handle dart.launching. There were 0 sessions:
+[9:35:17 PM] [General] [Warn] Event will be queued and processed when the session start event fires
+[9:44:14 PM] [FlutterRun] [Error] Hot reload received invalid response: {type: Sentinel, kind: Collected, valueAsString: <collected>}
+[9:44:18 PM] [FlutterRun] [Error] Hot reload received invalid response: {type: Sentinel, kind: Collected, valueAsString: <collected>}
+[9:44:18 PM] [FlutterRun] [Error] 
+[9:44:20 PM] [FlutterRun] [Error] Hot reload received invalid response: {type: Sentinel, kind: Collected, valueAsString: <collected>}
+[9:44:55 PM] [FlutterRun] [Error] Hot reload received invalid response: {type: Sentinel, kind: Collected, valueAsString: <collected>}
+[9:44:58 PM] [FlutterRun] [Error] Hot reload received invalid response: {type: Sentinel, kind: Collected, valueAsString: <collected>}
+[9:45:05 PM] [FlutterRun] [Error] Error -32000 received from application: Service protocol could not handle or find a handler for the requested method.
+[9:45:05 PM] [FlutterRun] [Error] 
+[9:45:20 PM] [FlutterDaemon] [Info] ==> [{"id":"10","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\projects\\flutter\\vpn_app"}}]
+[9:45:20 PM] [FlutterDaemon] [Info] <== [{"id":"10","result":{"platforms":["ios","android"]}}]
+[9:45:20 PM] [General] [Warn] Did not find session 73fec085-8081-4d89-a1e8-19ba1a44dab8 to handle dart.launching. There were 0 sessions:
+[9:45:20 PM] [General] [Warn] Event will be queued and processed when the session start event fires
